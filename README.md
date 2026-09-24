@@ -20,7 +20,7 @@ The data comes from one spreadsheet, [`data/stock-messy.xlsx`](data/stock-messy.
 | In the spreadsheet | In the app |
 |---|---|
 | "Kitchen", "kitchen ", "Kitchenware", "KITCHEN" | Kitchen |
-| "Northmere Textiles Ltd" / "Northmere Textiles" | Northmere Textiles |
+| "Wrenfold Textiles Ltd" / "Wrenfold Textiles" | Wrenfold Textiles |
 | `£12.50`, ` £ 12.50`, `12.5` | £12.50 |
 | `03/09/26`, `2026-09-03`, `3 Sept`, real Excel dates | 3 Sep 2026 |
 | `approx 20`, `12 ` | 20, 12 |
