@@ -47,7 +47,7 @@ export default function App() {
     const q = query.trim().toLowerCase();
     const filtered = data.items.filter(
       (i) =>
-        (!q || [i.item, i.sku, i.supplier].some((v) => v.toLowerCase().includes(q))) &&
+        (!q || [i.item, i.category, i.sku, i.supplier].some((v) => v.toLowerCase().includes(q))) &&
         (!category || i.category === category) &&
         (!supplier || i.supplier === supplier) &&
         (!lowOnly || (i.quantity != null && i.quantity < LOW_STOCK)),
@@ -87,7 +87,7 @@ export default function App() {
           <svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="9" cy="9" r="6" /><path d="m14 14 4 4" /></svg>
           <input
             type="search"
-            placeholder="Search item, SKU or supplier"
+            placeholder="Search item, category, SKU or supplier"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
           />

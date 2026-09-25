@@ -6,7 +6,7 @@ A one-page web app that turns a shop's stock spreadsheet into a searchable list 
 
 ## What it does
 
-- **Search** by item name, SKU or supplier
+- **Search** by item name, category, SKU or supplier
 - **Filter** by category and supplier, or show only items that are low on stock
 - **Sort** by any column (click a column heading on desktop, or use "Sort by" on a phone)
 - **Low stock badges** on anything with fewer than 5 in stock. "Out of stock" and "Not counted" get their own badges
